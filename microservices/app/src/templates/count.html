@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Authors detail</title>
+</head>
+<body>
+<h1>No of posts by each author</h1>
+{% for a in res%}
+<p>{{a['Name']}}----------->{{a['count']}}</p>
+{% endfor %}
+</body>
+</html>
