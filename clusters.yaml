@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: elegantly99-hasura
+  data: null
+  kubeContext: elegantly99
+  name: elegantly99
